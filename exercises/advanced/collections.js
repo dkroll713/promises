@@ -8,9 +8,15 @@
  *    4. Writes the new file to the file located at `writePath`
  */
 
+var Promise = require('bluebird');
 
 var combineFirstLineOfManyFiles = function(filePaths, writePath) {
   // TODO
+
+  Promise.all([
+
+  ]);
+
 };
 
 // Export these functions so we can unit test them
